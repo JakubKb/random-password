@@ -1,0 +1,114 @@
+ * {
+     padding: 0;
+     margin: 0; 
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: "Lexend Deca", sans-serif;
+     background-color: #232323;
+ }
+
+ .container {
+     background-color: #3b3b3b;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 50px 80px;
+     text-align: center;
+     padding: 20px;
+     width: 350px;
+     margin: 20px 100px 20px;
+ }
+
+ .pass {
+     background-color: #545454;
+     padding: 5px 5px;
+     display: flex;
+     margin: 10px 20px 30px;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #cccccc;
+     width: 90%;
+    
+ }
+
+ .pass img {
+     background-color: #3278fa;
+     padding: 10px;
+     margin-left: 15px;
+     float: right;
+     cursor: pointer;
+    float: right;
+ }
+
+ .pass p {
+     margin-right: 20px;
+     line-height: 0.8;
+ }
+
+ .pass img:hover {
+     opacity: 0.6;
+     transition: ease-in-out 0.3s;
+ }
+
+
+ ul {
+     list-style: none;
+     color: #cccccc;
+     font-size: 15px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     margin-bottom: 40px;
+ }
+
+ li {
+     margin-top: 10px;
+     justify-content: space-between;
+     display: flex;
+     margin-left: 10px;
+ }
+
+ input {
+     float: right;
+     
+ }
+
+ #Lenght {
+    max-width: 15%;
+ }
+
+.inputs:focus {
+    cursor: pointer;
+    transition: all ease-in-out 1s;
+}
+
+ .bottom {
+     margin-right: 20px;
+ }
+
+ button {
+     width: 90%;
+     margin-bottom: 20px;
+     padding: 10px 20px;
+     background-color: #232323;
+     color: #cccccc;
+     cursor: pointer;
+     border-radius: 7px;
+     
+ }
+ button:hover {
+     transition: ease-in-out 0.3s;
+     opacity: 0.5;
+ }
+
+ @media (min-width: 650px) {
+     .container {
+         max-width: 40%;
+         margin: 100px auto;
+     }
+ }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="iconmonstr-key-11-240.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Random Password Generator</title>
+</head>
+<body>
+        <main>
+            <div class="container">
+                    <div class="pass"><p id="pasdisplay">Password will display here</p> <img src="./clipboard.svg" alt="clipboard" id="copyclipboard" > </div>
+                    
+                    <div class="bottom">
+
+                        
+                        <ul>
+                            <li class="inputs">Password Lenght <input type="number" id="Lenght" value="20"></li>
+                            <li class="inputs">Allow Lowercase letters<input type="checkbox" id="uppercase"></li>
+                            <li class="inputs">Allow Uppercase letters<input type="checkbox" id="lowercase"></li>
+                            <li class="inputs">Allow Numbers<input type="checkbox" id="numbers"></li>
+                            <li class="inputs">Allow symbols<input type="checkbox" id="symbols"></li>
+                        </ul>
+                    </div>
+                    <button class="generate" id="generateBtn">Generate Password</button>
+                        
+                    
+                    
+
+            </div>
+
+
+        </main>
+
+
+        <script src="script.js"></script>
+
+</body>
+</html>
